@@ -1,0 +1,305 @@
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+li {
+    list-style-type: none;
+}
+
+.Tudo {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+align-content: center;
+}
+
+.Título {
+  margin-bottom: 32px; 
+}
+
+.mat {
+  background-color: rgba(218, 202, 63, 0.575);
+  color: rgb(124, 106, 23);
+}
+
+.port {
+  background-color: rgba(211, 95, 101, 0.616);
+  color: rgb(94, 27, 16);
+}
+
+.bio {
+  background-color: rgba(146, 216, 113, 0.596);
+  color: rgb(20, 80, 11);
+}
+
+.ainf {
+  background-color: rgba(104, 178, 231, 0.548);
+  color: rgb(14, 44, 83);
+}
+
+.ef {
+  background-color: rgba(148, 103, 60, 0.534);
+  color: rgb(101, 65, 33);
+} 
+
+.ccv {
+  background-color: rgba(178, 104, 231, 0.568);
+  color: rgb(57, 14, 83);
+}
+
+.linha-destacada {
+  background-color: #92908971;
+}
+
+td:nth-child(1),
+th:nth-child(1) {
+  background-color: #92908971;
+}
+
+.Legenda {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  margin-top: 20px;
+}
+
+.Logo {
+  display: flex;
+  width: 200px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+
+
+/* CAIXA DE TEXTO BIOLOGIA */
+.tooltip-1 {
+  position: relative;
+  cursor: help; /* shows a question-mark/help cursor in some browsers */
+  border-bottom: 1px dotted rgba(0,0,0,0.4);
+}
+
+.tooltip-1 .tooltiptext-1 {
+  visibility: hidden;
+  width: 220px;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 125%; /* position above the word */
+  left: 50%;
+  transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+}
+
+.tooltip-1 .tooltiptext-1::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-width: 6px;
+  border-style: solid;
+}
+
+.tooltip-1:hover .tooltiptext-1,
+.tooltip-1:focus .tooltiptext-1 {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(-6px);
+}
+
+
+
+/* CAIXA DE TEXTO EDUCAÇÃO FÍSICA */
+.tooltip-2 {
+  position: relative;
+  cursor: help; /* shows a question-mark/help cursor in some browsers */
+  border-bottom: 1px dotted rgba(0,0,0,0.4);
+}
+
+.tooltip-2 .tooltiptext-2 {
+  visibility: hidden;
+  width: 220px;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 125%; /* position above the word */
+  left: 50%;
+  transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+}
+
+.tooltip-2 .tooltiptext-2::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-width: 6px;
+  border-style: solid;
+}
+
+.tooltip-2:hover .tooltiptext-2,
+.tooltip-2:focus .tooltiptext-2 {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(-6px);
+}
+
+
+
+/* CAIXA DE TEXTO PORTUGUÊS */
+.tooltip-3 {
+  position: relative;
+  cursor: help;
+  border-bottom: 1px dotted rgba(0,0,0,0.4);
+}
+
+.tooltip-3 .tooltiptext-3 {
+  visibility: hidden;
+  width: 220px;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+}
+
+.tooltip-3 .tooltiptext-3::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-width: 6px;
+  border-style: solid;
+}
+
+.tooltip-3:hover .tooltiptext-3,
+.tooltip-3:focus .tooltiptext-3 {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(-6px);
+}
+
+
+
+
+/* CAIXA DE TEXTO AP INF */
+.tooltip-4 {
+  position: relative;
+  cursor: help;
+  border-bottom: 1px dotted rgba(0,0,0,0.4);
+}
+
+.tooltip-4 .tooltiptext-4 {
+  visibility: hidden;
+  width: 220px;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+}
+
+.tooltip-4 .tooltiptext-4::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-width: 6px;
+  border-style: solid;
+}
+
+.tooltip-4:hover .tooltiptext-4,
+.tooltip-4:focus .tooltiptext-4 {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(-6px);
+}
+
+
+
+/* CAIXA DE TEXTO CLUBE */
+.tooltip-5 {
+  position: relative;
+  cursor: help;
+  border-bottom: 1px dotted rgba(0,0,0,0.4);
+}
+
+.tooltip-5 .tooltiptext-5 {
+  visibility: hidden;
+  width: 220px;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+}
+
+.tooltip-5 .tooltiptext-5::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-width: 6px;
+  border-style: solid;
+}
+
+.tooltip-5:hover .tooltiptext-5,
+.tooltip-5:focus .tooltiptext-5 {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(-6px);
+}
+
+
+
+/* CAIXA DE TEXTO MATEMÁTICA */
+.tooltip-6 {
+  position: relative;
+  cursor: help;
+  border-bottom: 1px dotted rgba(0,0,0,0.4);
+}
+
+.tooltip-6 .tooltiptext-6 {
+  visibility: hidden;
+  width: 220px;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+}
+
+.tooltip-6 .tooltiptext-6::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-width: 6px;
+  border-style: solid;
+}
+
+.tooltip-6:hover .tooltiptext-6,
+.tooltip-6:focus .tooltiptext-6 {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(-6px);
+}
